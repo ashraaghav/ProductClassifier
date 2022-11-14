@@ -17,7 +17,6 @@ def clean(x: str) -> str:
     return re.sub(r'\b[0-9]+\b\s*', '', x).strip()  # remove words that are just numbers
 
 
-# truncate string
 def clean_and_truncate(x: str, max_len: int, pad: str = '[UNK]') -> str:
     """
     clean and truncate the input description
