@@ -2,7 +2,7 @@
 
 Creates a model that predicts the Product's category based on 
 the description and manufacturer. The task has 3 main steps:
-* Cleaning the data descriptions and generating the embeddings 
+* Clean the data descriptions and generating the embeddings 
 using pretrained BERTModel from huggingface
 * Build an SVM to use the embeddings to identify the product category
 * Use FastAPI to serve the model via HTTP REST API.
@@ -45,8 +45,8 @@ in the jupyter notebook `Product Category Classifier.ipynb`
 ## Deployment & Future steps
 
 While this is just a simple HTTP API, to make things more production friendly, 
-the next step should be to use a Docker container so that the model can 
+the next step is to use a Docker container so that the model can 
 be deployed seamlessly.
 
 Once the model goes to production, the model building and re-training procedure
-should be more Pipeline oriented, so that each step is more modular.
+should be more Pipeline oriented, so that each step is cleaner and more modular.
