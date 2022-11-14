@@ -1,0 +1,10 @@
+*.csv
+*.idea/
+*.ipynb_checkpoints/
+*__pycache__/
+*.vector_cache
+*.embedding/
+*.pkl
+*.npy
+*.pt
+*.txt
