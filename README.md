@@ -26,10 +26,10 @@ python scripts/generate_embeddings.py --datadir ./data --savedir ./results
 
 ***STEP 2:*** Train classifier
 ```
-python scripts/generate_embeddings.py --datadir ./data --savedir ./results
+python scripts/train_model.py --datadir ./data --savedir ./results
 ```
 
-***STEP 3:*** Serve the model via HTTP REST API
+***STEP 3:*** Serve the model via HTTP API (FAST API)
 ```
 python main.py
 ```
